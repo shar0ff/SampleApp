@@ -1,0 +1,23 @@
+/*Global*/
+
+/*creat a fake block to eliminate content overlap with navbar*/
+body::before {
+  content: "";
+  display: block;
+  height: 70px;
+}
+
+/*centering*/
+.center {
+  text-align: center;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*adding sliders if the content does not fit in the block*/
+section {
+  overflow: auto;
+}

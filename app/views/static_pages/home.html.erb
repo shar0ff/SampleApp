@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
-<%provide(:title, "Home") %>
 <head>
 </head>
+
 <body>
-<h1>Sample App</h1>
-<p>
-  This is the home page
-</p>
+<div class="center jumbotron">
+  <h1>Welcome to the Sample App</h1>
+  <h2>This is the home page</h2>
+  <%= link_to "Sign up now!", signup_path , class: "btn btn-lg btn-primary" %>
+</div>
 </body>
 </html>
