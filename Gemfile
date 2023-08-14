@@ -46,6 +46,9 @@ gem 'bootstrap-sass'
 
 gem 'rails-controller-testing'
 
+#password hashing
+gem 'bcrypt'
+
 # Use Sass to process CSS
 gem "sassc-rails"
 
